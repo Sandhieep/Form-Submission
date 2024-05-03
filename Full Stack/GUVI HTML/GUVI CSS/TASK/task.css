@@ -1,0 +1,33 @@
+body{
+    background-color: lightblue;
+}
+.fa{
+    color: blue;
+}
+a{
+   /* text-decoration: underline; */
+   border-bottom: 1px solid blue;  
+}
+.box-inside{
+    background-color: white;
+    padding: 60px 15px;
+    /* text-align: center; */
+    margin: 20px 10px;
+}
+span{
+    font-size: 15px;
+    /* margin: 20px 0px; */
+}
+.box{
+    padding: 60px;
+}
+.content{
+    margin: 20px 0px;
+}
+.box-inside1{
+    background-color: white;
+    padding: 60px 50px 15px 60px;
+}
+/* .content1{
+    margin: 20px 0px;
+} */

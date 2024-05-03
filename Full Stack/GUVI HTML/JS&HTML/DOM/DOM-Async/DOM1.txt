@@ -1,0 +1,83 @@
+callback
+promises
+fetch
+async and await
+
+synchronous:Sequential
+Asynchronous:Parallel/Time consuming
+setTimeout(()=>{},time in milleseconds);
+
+callstack:it is the register which is used to keep the track of the execution of the function/statements.
+(latenflip.com/loupe) 
+
+Web api:It is the place where the actual time 
+consuming operations takes place
+
+call back queue:where async code waist for the execution
+It is place where all the operations that are to be executed via call stack will be place
+it will be placed in the FIFO order
+
+Event loop:
+It is to check whether the call stack is empty or not
+If it is empty it will push the code from the event queue to call stack for the execution
+
+Callback:when a function is passed as a parameter to another function,
+the function which is passed as a parameter is nothing but called as a callback function.
+A function which takes another function as a parameter.
+
+Because of the callback hell scenario,call backs are used for the simple operaions and not for the complex operations
+
+
+//Promises:
+states
+handling the promises
+chaning
+set of promises
+
+Need to overcome call back hell scenario
+Promises:wrap the async operations
+
+Promise: It is an object which holds the result of async operations
+Syntax: var variable= new Promise(()=>{})
+it consist of a object in which holds the function as a parameter  
+inside the function we have 2 parameters
+States:
+      pending state
+      fulfilled state
+      rejected state
+
+resolve:it is for fulfilled state
+reject:it is for rejected state
+
+Accessing the content inside the promise/Handling the promise
+.then(): for resolved state
+.catch(): for rejected state
+
+Handling Multiple Promises:
+Promise.all():
+it takes the array of promises and waits until all the promises are resolved
+Syntax:Promise.all([array of promises])
+The result will be array with resolved states
+
+Promise.allSettled():
+it takes the array of promises and waits until all the promises are resolved
+The result will be array of objects with resolved states as well as rejected states
+
+Application of Promises:
+fetch and async and await
+
+fetch is an alternative to XHR(Xml http request)
+fetch takes the api as the parameter
+performs necessary operations
+Syntax:var variable=fetch("API");
+
+Fetch always returns a promise
+inside the promise we have the data in the readable stream
+data has to be converted either to array or Object/String
+
+
+To convert into object we need to have .json method.
+.json method always returns a promise
+
+we need to use one more .then() to access the value inside the promise
+

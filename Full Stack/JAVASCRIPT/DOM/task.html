@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>DOCUMENT OBJECT MODEL</title>
+</head>
+<body>
+    <button class="sayhi">SayHi</button>
+    <script>
+        let hibtn=document.querySelector('.sayhi')
+        hibtn.addEventListener('click',function(e){
+            let divElement=document.createElement('div')
+            divElement.innerText='Hi'
+            let body=document.querySelector('body')
+            body.appendChild(divElement)
+        })      
+    </script>
+</body>
+</html>

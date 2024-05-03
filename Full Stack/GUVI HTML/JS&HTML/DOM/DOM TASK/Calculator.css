@@ -1,0 +1,119 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+} 
+.box{
+    border: 2px solid gray;
+    width: 250px;
+    height: 350px;
+    padding-left: 20px;  
+    padding-top: 30px;
+    background-color:grey;
+    border-radius: 5px;
+}
+#text1{
+    background-color: grey;
+    color: grey;
+}
+#text{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 220px;
+    height: 20px;
+    border-radius: 1px solid lightgrey;
+    text-align: end;
+}
+.circle{
+    padding-top: 20px;
+    width: 100%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: 1.1fr 1.1fr 1.1fr 1.1fr;
+    grid-template-rows: 1.2fr 1.2fr 1.2fr 1.2fr;
+    grid-template-areas: 'id1 id2 id3 id4'
+    'id5 id6 id7 id8'
+    'id9 id10 id11 id12'
+    'id13 id14 id15 id16';
+    
+}
+
+.i1{
+ grid-area: id1;
+}
+.i2{
+    grid-area: id2;
+}
+.i3{
+    grid-area: id3;
+}
+.i4{
+    grid-area: id4;
+}
+.i5{
+    grid-area: id5;
+}
+.i6{
+    grid-area: id6;
+}
+.i7{
+    grid-area: id7;
+}
+.i8{
+    grid-area: id8;
+}
+.i9{
+    grid-area: id9;
+}
+.i10{
+    grid-area: id10;
+}
+.i11{
+    grid-area: id11;
+}
+.i12{
+    grid-area: id12;
+}
+.i13{
+    grid-area: id13;
+}
+.i14{
+    grid-area: id14;
+}
+.i15{
+    grid-area: id15;
+}
+.i16{
+    grid-area: id16;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border: 0px;
+    background-color: lightblue;
+    color: black;
+    margin-top: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 15px;
+    margin: 0px;
+}
+.op{
+    background-color: lightcoral;
+}
+.eq{
+    background-color: lightgreen;
+}
+.cancel{
+    background-color: lightseagreen;
+}
+.uppertext{
+    background-color: gray;
+    color: black;
+    width: 220px;
+    border: none;
+    outline: none;
+  text-align: end;
+  font-size: 20px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>TYPE WITHOUT CAPSLOCK</title>
+    <style>
+        #pass{
+            display: block;
+            margin: auto;
+            margin-top: 10rem;
+            width: 25rem;
+            height: 3rem;          
+        }
+        p{
+            text-align: center;
+            font-size: 3rem;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input type="text" id="pass"/>
+        <p>Caps on!</p>
+    </div>
+    <script>
+        let body=document.querySelector('body');
+        let password=document.querySelector('pass');
+        let para=document.querySelector('p');
+        body.addEventListener('keydown',function(e){
+             let capsFlag=e.getModifierState('CapsLock')
+             let ShiftIn=e.shiftKey
+             if(capsFlag){
+                e.preventDefault();
+                para.style.display='block';
+             }
+             else if(!ShiftIn){
+                e.preventDefault();
+             }
+             else{
+                para.style.display='none';
+                password.style.display='block';
+             }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+.fa{
+    background-color: black;
+    padding-bottom: 200px;
+}
+.content{
+    display: inline-flex; 
+    color: white;
+    padding-left: 200px;
+    padding-top: 10px;  
+}
+#p1{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#p2{
+    color: white;
+    font-size: 40px;
+    padding-top:160px;
+    padding-left:480px;
+}
+#p3{
+    color: white;
+    padding-left: 520px;
+}
+.fa1{
+    background-color: white;
+    padding-top: 80px;
+}
+b{
+    font-size: 20px;
+}
+/* .pic{
+    padding-left: 860px;
+} */
+.content-2{
+    text-align: center;
+    padding:20px 20px;
+    padding-right: 0px;
+    height: fit-content;
+}
+#p4{
+    text-align: left;
+    height: fit-content;
+}
+.box-1{
+    margin-left: 100px;
+}
+ /*.box-2{
+    /* margin-left: 700px;
+    margin-top: 10px;
+    margin-bottom: 190px; */
+    /* width: 200px;
+    height: 0px;
+     */
+/*}*/
+.box-2{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    /* align-items: center; */
+    margin: 50px 0px 0px 700px;
+    width: 200px;
+    height: 0px;
+    /* height: 5px;*/
+}
+.b1{
+   background-color: grey;
+   padding: 5px 20px 5px 20px;
+   border-color: grey;
+   border-radius: 2px;
+}
+.bb1{
+    background-color: grey;
+    color: darkslategrey;
+    padding: 0px 0px 0px 0px;
+}
+.t1{
+    padding: 0px 0px 0px 0px;
+    color: black;
+}
+.b2{
+    background-color: red;
+    padding: 5px 15px 5px 15px;
+    border-color: red;
+    border-radius: 2px;
+}
+.bb2{
+    background-color: red;
+    color: lightgrey;
+    padding: 0px 0px 0px 0px;
+}
+.t2{
+    padding: 0px 0px 0px 0px;
+    color: white;
+}
+.b3{
+    background-color: orangered;
+    border-color:  orangered;
+    border-radius: 2px;
+    padding: 3px 15px 3px 15px;
+}
+.bb3{
+    background-color: orangered;
+    color: lightgrey;
+    padding: 0px;
+}
+.t3{
+    color: white;
+}
+.rowbutton{
+    /* display: inline-flex; */
+    margin-top: 70px;
+    margin-left: 450px;
+    margin-bottom: 60px;
+}
+.row-3{
+    background-color: black;
+    padding: 30px 60px 20px 60px;
+}
+.content2{
+    text-align: center;
+}
+#p5{
+    color: white;
+}
+#p6{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: black;
+}
+.ss{
+    padding: 0px 10px 0px 0px;
+    font-size: 20px;
+    background-color: white;
+}
+.row-4-1{
+    display: inline-flex;
+}
+.box-inside{
+    border: 3px solid grey;
+    border-radius: 3px;
+    height: 140px;
+    width: 300px;
+    padding: 10px;
+}
+/* .content4{
+    margin-left: 100px;
+}
+.content5{
+    margin-left:50px;
+}
+.content6{
+    margin-left: 5px;
+}
+.content7{
+    margin-left: 10px;
+} */
+.row-4-2{
+    display: inline-flex;
+}
+#poet{
+    margin-left: 250px;
+}
+#poet1{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.content8{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.content9{
+    margin-top: 100px;
+}
+#poem1{
+    margin-top: 100px;
+}

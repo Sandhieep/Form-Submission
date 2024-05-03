@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+ /*<!--Static-->
+      <!--They are not affected by top,left,bottom,right-->
+      <!--By default all html elements are positioned static-->
+      <!--Apart from using margin or any other elements..top,left..Can't use directly in static-->*/
+        /* .main{
+            background-color: blueviolet;
+            display: inline;
+            top: 20px;           
+            left: 30px;
+        } */
+
+/*<!--Relative-->
+      <!--They are affected by top,left,bottom,right-->
+      <!--A space is created for them in the document-->
+      <!--It will affect the document flow-->*/
+        /* .parent{
+            background-color: green;
+        }
+        .child1{
+            background-color: orange;
+            top: 40px;
+            position: relative;
+            display: inline;
+        }
+        .child2{
+            background-color: aquamarine;
+        } */
+
+/*<!--Absolute-->
+      <!--They are affected by top,left,bottom,right-->
+      <!--It will affect the document flow-->
+      <!--No space is created-->
+      <!--It will be positioned with respect to first positioned element-->*/
+ /*<!--2 Cases are there:-->
+               <!--Absolute position property has to be used along with the combination of the relative-->
+               <!--ex.if child1 has to be absolute means --> */
+        /* .parent{
+            background-color: green;
+            position: relative;
+        }
+        .child1{
+            background-color: orange;
+            top: 40px;
+            position: absolute;
+            display: inline; 
+        }
+        .child2{
+            background-color: aquamarine;
+        } */
+        
+/*<!--Fixed-->
+       <!--If you allot one specific location top,left,bottom,right-->
+       <!--They are not affected by scrolling-->*/
+        /* .main{
+            padding-bottom: 300%;
+        }
+        span{
+            background-color: green;
+            top: 30px;
+            position: fixed;
+        } */
+
+/*<!--Sticky-->
+       <!--They will get affected by scrolling-->
+       <!--But,If you reach their position..they will stick on to it-->*/
+        /* .main{
+            padding-bottom: 300%;
+        }
+        span{
+            background-color: green;
+            top: 0px;
+            position: sticky;
+        } */
+    </style>
+
+</head>
+<body> 
+    <!-- <div class="main">This is div</div> -->
+    
+    <!--<div class="parent">
+        <div class="child1">This is Child1</div>
+        <div class="child2">This is Child2</div>
+    </div>-->
+
+    <!-- <div class="parent">
+        <div class="child1">This is Child1</div>
+        <div class="child2">This is Child2</div>
+    </div> -->
+
+    <!--<span>This is span</span>
+    <div class="main">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ab soluta maiores dicta saepe itaque blanditiis recusandae placeat inventore iure? Perspiciatis, veritatis! Ullam dolores earum quasi quos corrupti, quo totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima in, fugiat tempora repudiandae earum quo optio cupiditate sequi dicta quisquam eveniet nihil, suscipit iste harum nisi voluptatum ipsum doloribus cumque? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non quis doloremque natus sunt, at quisquam fugit veniam repudiandae quidem labore architecto facere provident voluptatum repellendus earum distinctio officia ab incidunt?
+        Quam suscipit tempore, nisi, a debitis quibusdam obcaecati quisquam natus nam nihil magnam, nesciunt placeat eligendi maxime perferendis recusandae non et mollitia officia aliquid! Blanditiis dolor aliquid quibusdam dignissimos aut.
+        Quos dolor repudiandae quisquam nihil qui, fugit perspiciatis repellendus. Repellat dicta, tenetur nihil, aliquid sed inventore debitis temporibus adipisci perspiciatis quod quidem sint soluta quasi porro quisquam doloribus odio sit!
+        Eos, debitis molestiae hic tempora similique eaque possimus voluptatibus voluptatem deleniti laboriosam aperiam. Commodi, cum! Ea voluptates explicabo esse saepe aperiam, dolorum porro ex temporibus cum debitis veniam nulla quibusdam!
+        Porro, voluptates veniam omnis officiis a explicabo error odio? Labore, nobis! Nisi quam pariatur ratione esse quod fugiat voluptatem blanditiis odit, corrupti cupiditate totam id animi.
+    </div>-->
+
+    <!--<span>This is span</span>
+    <div class="main">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ab soluta maiores dicta saepe itaque blanditiis recusandae placeat inventore iure? Perspiciatis, veritatis! Ullam dolores earum quasi quos corrupti, quo totam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima in, fugiat tempora repudiandae earum quo optio cupiditate sequi dicta quisquam eveniet nihil, suscipit iste harum nisi voluptatum ipsum doloribus cumque? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non quis doloremque natus sunt, at quisquam fugit veniam repudiandae quidem labore architecto facere provident voluptatum repellendus earum distinctio officia ab incidunt?
+        Quam suscipit tempore, nisi, a debitis quibusdam obcaecati quisquam natus nam nihil magnam, nesciunt placeat eligendi maxime perferendis recusandae non et mollitia officia aliquid! Blanditiis dolor aliquid quibusdam dignissimos aut.
+        Quos dolor repudiandae quisquam nihil qui, fugit perspiciatis repellendus. Repellat dicta, tenetur nihil, aliquid sed inventore debitis temporibus adipisci perspiciatis quod quidem sint soluta quasi porro quisquam doloribus odio sit!
+        Eos, debitis molestiae hic tempora similique eaque possimus voluptatibus voluptatem deleniti laboriosam aperiam. Commodi, cum! Ea voluptates explicabo esse saepe aperiam, dolorum porro ex temporibus cum debitis veniam nulla quibusdam!
+        Porro, voluptates veniam omnis officiis a explicabo error odio? Labore, nobis! Nisi quam pariatur ratione esse quod fugiat voluptatem blanditiis odit, corrupti cupiditate totam id animi.
+    </div>-->
+
+
+</body>
+</html>

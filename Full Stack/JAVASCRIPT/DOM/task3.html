@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JAIL THE MOUSE</title>
+    <style>
+        .container{
+            height: 400px;
+            width: 400px;
+            border: 1px solid black;
+            margin: auto;
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+    <script>
+        let box=document.querySelector('.container')
+        box.addEventListener('mouseover',function(){
+            box.style.backgroundImage="url('./fun.JPG')"
+        })
+        box.addEventListener('mouseout',function(){
+            box.style.backgroundImage='none'
+        })
+    </script>
+</body>
+</html>

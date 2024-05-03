@@ -1,0 +1,19 @@
+DOM(DOCUMENT OBJECT MODEL):
+* Dynamically Creating the elements
+
+1. Creating an HTML element Dynamically.
+DOM inbuilt methods:
+already the elements are defined in the HTML
+if you want to perform some modification
+then we need above methods
+
+//Functional Based Approaches(dom1,DomTask,DomTask1,DomTask2)
+//Adding the events
+//Revise
+
+/*append vs appendchild*/
+//append can append multiple elements
+//it returns undefined
+
+//appendChild can append only one single element
+//it return the appended element

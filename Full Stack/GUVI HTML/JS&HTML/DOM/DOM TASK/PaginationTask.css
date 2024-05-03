@@ -1,0 +1,38 @@
+.btnDiv{
+    display: flex;
+    flex-direction: row;
+    /* align-items: end;  */
+    justify-content: center; 
+    margin-top: 470px;      
+}
+.data1{
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.data{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 'id1 id1 id1'
+    'id2 id2 id2'
+    'id3 id3 id3'
+    'id4 id4 id4'
+    'id5 id5 id5';
+}
+.row1{
+    grid-area: id1;
+}
+.row2{
+    grid-area: id2;
+}
+.row3{
+    grid-area: id3;
+}
+.row4{
+    grid-area: id4;
+}
+.row5{
+    grid-area: id5;
+}

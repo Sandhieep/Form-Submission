@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Double Button</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <div>
+        <button class="double">double</button>
+    </div>
+    <script>
+        let button=document.querySelector('.double');
+        button.addEventListener('click',function(){
+            let btn1=document.createElement('button');
+            //console.log(btn1);
+            btn1.setAttribute("class",'double');
+
+            let btn2=document.createElement('button');
+            //console.log(btn2);
+             btn2.setAttribute("class",'double');
+
+            let body=document.querySelector('body');
+            body.appendChild(btn1);
+            body.appendChild(btn2);
+        })
+    </script>
+
+</body>
+</html>

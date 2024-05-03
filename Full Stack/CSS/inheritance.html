@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<style>
+    body{
+        color: red;
+    }
+    /* Inherit applies the property of the parent class to the child class 
+    i.e: parent class is body */
+    .c1 a{
+        color: inherit;
+    }
+    /* initial applies the default property to the child */
+    .c2 a{
+        color: initial;
+    }
+    /* unset applies only applicable inherit property to the child otherwise it ignores */
+    .c3 a{
+        color: unset;
+        height: 10vh;    /*It cannot work because this property is not able to use in inherit */
+    }
+</style>
+<body>
+    <ul>
+        <li>Default<a href="">link</a>Color</li>
+        <li class="c1">inherit<a href="">link</a>Color</li>
+        <li class="c2">initial<a href="">link</a>Color</li>
+        <li class="c3">Unset<a href="">link</a>Color</li>
+    </ul>
+
+    
+</body>
+</html>

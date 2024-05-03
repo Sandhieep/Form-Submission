@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>1</li>             
+        <li>2</li>             
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <!-- <li>7</li>      To insert list 7 using DOM(this list are present as node type)--> 
+        <li>8</li>
+        <li>9</li>
+    </ul>
+    <script>
+        let ul=document.querySelector('ul')
+        let listnode=document.querySelectorAll('li')
+        let wrongindex=listnode[6]
+        let seventhElement=document.createElement('li')
+        seventhElement.innerText='7'
+        ul.insertBefore(seventhElement,wrongindex)
+    </script>
+</body>
+</html>
